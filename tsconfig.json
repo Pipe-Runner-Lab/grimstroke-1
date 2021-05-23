@@ -14,7 +14,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": "./src",
-    "sourceMap": true
+    "sourceMap": true,
+    "experimentalDecorators": true
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules"]
