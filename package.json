@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:dev": "npx webpack --watch --mode=development --config ./webpack.dev.js",
+    "build:dev": "npx webpack --watch--config ./webpack.dev.js",
+    "build:prod": "npx webpack --config ./webpack.prod.js",
     "clean": "npx rimraf dist",
     "serve:dev": "npx webpack serve --config webpack.dev.js",
     "dev": "npm run clean && npm run serve:dev"
