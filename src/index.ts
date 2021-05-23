@@ -11,8 +11,6 @@ const canvas = initializeFoundation();
 
 const artwork = new Artwork(canvas);
 
-// artwork.render(SEED);
-
 function animate(timestamp = 0): void {
   artwork.render(SEED, timestamp);
   requestAnimationFrame(animate);

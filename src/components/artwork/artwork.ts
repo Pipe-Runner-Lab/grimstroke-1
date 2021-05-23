@@ -61,7 +61,7 @@ class Artwork {
     const noise = Math.abs(random.noise2D(u, v, Math.sin(timestamp * 0.00009)));
 
     this.ctx.fillStyle = random.pick(this.palette);
-    this.ctx.font = `${Math.max(4, Math.round(26 * noise))}px "Ariel"`;
+    this.ctx.font = `${Math.max(4, Math.round(24 * noise))}px "Ariel"`;
     this.ctx.textAlign = 'center';
     this.ctx.textBaseline = 'middle';
     this.ctx.translate(u * this.width, v * this.height);
