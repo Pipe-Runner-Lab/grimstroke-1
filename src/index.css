@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
+}
